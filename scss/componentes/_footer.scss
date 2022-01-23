@@ -1,0 +1,32 @@
+footer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  .contenedorFooter {
+    padding: 10px;
+    a {
+      display: flex;
+      gap: 10px;
+      ion-icon {
+        color: black;
+        width: 30px;
+        height: 30px;
+        margin-bottom: 5px;
+        transition: all 0.25s;
+      }
+      p {
+        color: black;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        transition: all 0.25s;
+        margin-bottom: 5px;
+      }
+      &:hover ion-icon,
+      &:hover p {
+        color: rgb(80, 34, 116);
+      }
+    }
+  }
+}

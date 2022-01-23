@@ -1,0 +1,51 @@
+.contenedorImagenLogo img {
+  width: 100%;
+  height: 100%;
+}
+.primeraSeccion {
+  background-image: url("/multimedia/Fondo.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#logoNombre,
+#logoNegocio,
+#logoCodigo {
+  width: 100%;
+  color: rgb(153, 153, 153);
+  font-weight: lighter;
+}
+#logoNombre {
+  font-size: 27.5px;
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-transform: uppercase;
+  transition: all 0.25s;
+  /*&:hover {
+    color: rgb(58, 23, 114);
+  }*/
+}
+#logoNegocio {
+  font-size: 20px;
+  height: 30%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  transition: all 0.25s;
+  /*&:hover {
+    color: rgb(200, 116, 217);
+  }*/
+}
+#logoCodigo {
+  font-size: 10px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  transition: all 0.25s;
+  /*&:hover {
+    color: rgb(200, 116, 217);
+  }*/
+}

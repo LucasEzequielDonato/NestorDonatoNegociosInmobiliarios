@@ -1,0 +1,53 @@
+@media only screen and (max-width: 599px) {
+  nav {
+    .contenedorIconoMenu {
+      display: block;
+    }
+    ul {
+      display: block;
+      position: relative;
+      top: 50px;
+      li {
+        width: 100%;
+        height: 50px;
+      }
+    }
+  }
+  .contenedorLogo {
+    width: 225px;
+    height: auto;
+    display: block;
+  }
+  .contenedorImagenLogo {
+    width: calc(100% - 60px);
+    height: 175px;
+    padding: 30px;
+  }
+  .contenedorTextoLogo {
+    width: calc(100% - 20px);
+    height: 40%;
+    padding: 10px;
+  }
+  #logoNombre {
+    font-size: 20px;
+    height: auto;
+    align-items: center;
+    margin: 5px 0;
+  }
+  #logoNegocio {
+    font-size: 15px;
+    height: auto;
+    align-items: center;
+    margin: 5px 0;
+  }
+  #logoCodigo {
+    font-size: 10px;
+    height: auto;
+    justify-content: center;
+    margin: 5px 0 0 0;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+}
+@media only screen and (min-width: 1000px) {
+}
